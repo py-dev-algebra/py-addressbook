@@ -1,4 +1,5 @@
-from services.file_services import get_last_id
+from services.file_services import (get_last_id,
+                                    get_contact)
 
 
 if get_last_id() != -1:
@@ -8,3 +9,9 @@ else:
 
 print(id)
 
+id_contact = 15
+contact = get_contact(id_contact)
+if contact != None:
+    print(contact)
+else:
+    print(f'Ne postoji trazeni kontakt s ID: {id_contact} u bazi!')
