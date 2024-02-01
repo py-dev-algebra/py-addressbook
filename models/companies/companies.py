@@ -5,9 +5,9 @@ class Company:
     def __init__(self,
                  title: str,
                  vat_id: str,
-                 hq_address: Address,
-                 phone: str,
-                 email: str) -> None:
+                 hq_address: Address = None,
+                 phone: str = None,
+                 email: str = None) -> None:
         self.title = title
         self.vat_id = vat_id
         self.hq_address = hq_address
