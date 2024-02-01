@@ -1,5 +1,5 @@
-# py-addressbook
-Python adresar - konzolna aplikacija
+# Python adresar
+### *konzolna aplikacija*
 
 ## Zadatak
 Kreirati aplikaciju koja vodi evidenciju o podacima Tvrtke (Organization), svim Kupcima (Customers) te svim Djelatnicima (Employees).
