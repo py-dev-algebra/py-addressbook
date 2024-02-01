@@ -16,7 +16,7 @@ class FileManager:
 
         try:
             with open(self.file_path, 'a') as file_writer:
-                json.dump(company.__dict__, file_writer)
+                json.dump(company.__dict__, file_writer, indent=4)
                 print(f'Uspjesno je kreirana firma {company}')
         except Exception as ex:
             print(f'Dogodila se greska {ex}')
