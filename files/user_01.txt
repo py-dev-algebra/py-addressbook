@@ -1,7 +1,4 @@
-import json
-
-
-user = {
+{
     "id": 1,
     "firstname": "John",
     "lastname": "Doe",
@@ -33,11 +30,3 @@ user = {
         "bs": "Marketing"
     }
 }
-
-
-try:
-    with open('files/user_01.json', 'w') as file_writer:
-        json.dump(user, file_writer, indent=4)
-
-except Exception as ex:
-    print(f'Dogodila se greska: {ex}')
