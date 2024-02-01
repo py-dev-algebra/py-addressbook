@@ -2,7 +2,7 @@
 ### *konzolna aplikacija*
 
 ## Zadatak
-Kreirati aplikaciju koja vodi evidenciju o podacima Tvrtke (Organization), svim Kupcima (Customers) te svim Djelatnicima (Employees).
+Kreirati aplikaciju **Python Adresar** koja vodi evidenciju o podacima Tvrtke (Organization), svim Kupcima (Customers) te svim Djelatnicima (Employees).
 
 Aplikaciju napraviti tako da svaka komponenta ima svoj Paket sa svim pripadajućim modulima.
 
