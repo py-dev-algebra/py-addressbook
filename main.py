@@ -1,4 +1,4 @@
-from services.file_services import (get_last_id,
+from services.file_services.file_services import (get_last_id,
                                     get_contact)
 
 

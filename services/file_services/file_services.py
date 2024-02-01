@@ -1,4 +1,4 @@
-from models.contacts import Contact
+from models.contacts.contacts import Contact
 
 
 
