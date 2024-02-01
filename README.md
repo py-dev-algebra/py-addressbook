@@ -7,3 +7,7 @@ Kreirati aplikaciju **Python Adresar** koja vodi evidenciju o podacima Tvrtke (O
 Aplikaciju napraviti tako da svaka komponenta ima svoj Paket sa svim pripadajućim modulima.
 
 Podaci su pohranjeni u tekstualne datoteke (txt i json). Za rad s datotekama koristiti zaseban Paket Services-FileManager.
+
+## Pokretanje aplikacije
+
+U konzoli upisati **python main.py**
