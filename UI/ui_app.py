@@ -20,6 +20,7 @@ def start_app():
                 contact_manager = ContactManager()
                 contacts = contact_manager.get_all()
                 print(contacts)
+                input('\nZa nastavak pritisnite tipku ENTER\n')
             
             case 0:
                 return
