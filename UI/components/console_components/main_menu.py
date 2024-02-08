@@ -6,6 +6,6 @@ def main_menu():
     print('1. Kreiraj novu firmu')
     print('2. ...')
     print('3. Dohvati sve kontakte')
+    print('4. Dohvati jedan kontakt')
     
     print('0. Izlaz\n')
-
