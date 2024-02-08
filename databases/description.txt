@@ -1,1 +1,0 @@
-Ovo je folder u kojem cemo cuvati datoteku SQLite baze

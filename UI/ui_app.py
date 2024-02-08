@@ -1,7 +1,6 @@
 import time
 
 from UI.components.console_components.main_menu import main_menu
-from UI.components.console_components.create_company_form import create_company_form
 from UI.components.console_components.select_contact_id_form import select_contact_id
 from services.contact_services.contact_managers import ContactManager
 
@@ -13,7 +12,7 @@ def start_app():
 
         match choice:
             case 1:
-                create_company_form()
+                pass
             case 2:
                 print('Izabrali smo izbor DVA')
                 time.sleep(2)
