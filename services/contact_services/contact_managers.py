@@ -1,5 +1,10 @@
 import requests
-from commons.app_constants import BASE_URL
+from commons.app_constants import (BASE_URL,
+                                   LOG_INFO,
+                                   LOG_WARNING,
+                                   LOG_ERROR)
+from commons.message_generator import generate_log_message
+from services.file_services.logging_manager import LoggingManager
 
 
 class ContactManager:
@@ -17,5 +22,7 @@ class ContactManager:
             else:
                 return []
         except Exception as ex:
-            error_message = f'Dogodila se greska {ex}'
+            logger = LoggingManager()
+            message = generate_log_message(ex, LOG_ERROR)
+            logger.save_message(message)
             return []
